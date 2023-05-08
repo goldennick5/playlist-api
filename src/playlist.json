@@ -1,0 +1,415 @@
+[
+  {
+    "id": 1,
+    "performer": "Adele",
+    "song": "Rolling in the Deep",
+    "genre": "Pop",
+    "year": 2010
+  },
+  {
+    "id": 2,
+    "performer": "Katy Perry",
+    "song": "Firework",
+    "genre": "Pop",
+    "year": 2010
+  },
+  {
+    "id": 3,
+    "performer": "Rihanna",
+    "song": "Only Girl (In the World)",
+    "genre": "Pop",
+    "year": 2010
+  },
+  {
+    "id": 4,
+    "performer": "Bruno Mars",
+    "song": "Just the Way You Are",
+    "genre": "Pop",
+    "year": 2010
+  },
+  {
+    "id": 5,
+    "performer": "CeeLo Green",
+    "song": "Forget You",
+    "genre": "Pop",
+    "year": 2010
+  },
+  {
+    "id": 6,
+    "performer": "Adele",
+    "song": "Someone Like You",
+    "genre": "Pop",
+    "year": 2011
+  },
+  {
+    "id": 7,
+    "performer": "Maroon 5",
+    "song": "Moves Like Jagger",
+    "genre": "Pop",
+    "year": 2011
+  },
+  {
+    "id": 8,
+    "performer": "Katy Perry",
+    "song": "Last Friday Night (T.G.I.F.)",
+    "genre": "Pop",
+    "year": 2011
+  },
+  {
+    "id": 9,
+    "performer": "LMFAO",
+    "song": "Party Rock Anthem",
+    "genre": "Pop",
+    "year": 2011
+  },
+  {
+    "id": 10,
+    "performer": "Bruno Mars",
+    "song": "Grenade",
+    "genre": "Pop",
+    "year": 2011
+  },
+  {
+    "id": 11,
+    "performer": "Gotye featuring Kimbra",
+    "song": "Somebody That I Used to Know",
+    "genre": "Indie pop",
+    "year": 2012
+  },
+  {
+    "id": 12,
+    "performer": "Carly Rae Jepsen",
+    "song": "Call Me Maybe",
+    "genre": "Pop",
+    "year": 2012
+  },
+  {
+    "id": 13,
+    "performer": "fun. featuring Janelle Monáe",
+    "song": "We Are Young",
+    "genre": "Indie pop",
+    "year": 2012
+  },
+  {
+    "id": 14,
+    "performer": "Maroon 5",
+    "song": "Payphone",
+    "genre": "Pop",
+    "year": 2012
+  },
+  {
+    "id": 15,
+    "performer": "One Direction",
+    "song": "What Makes You Beautiful",
+    "genre": "Pop",
+    "year": 2012
+  },
+  {
+    "id": 17,
+    "performer": "Lorde",
+    "song": "Royals",
+    "genre": "Pop",
+    "year": 2013
+  },
+  {
+    "id": 18,
+    "performer": "Robin Thicke featuring T.I. and Pharrell Williams",
+    "song": "Blurred Lines",
+    "genre": "R&B",
+    "year": 2013
+  },
+  {
+    "id": 19,
+    "performer": "Katy Perry featuring Juicy J",
+    "song": "Dark Horse",
+    "genre": "Pop",
+    "year": 2014
+  },
+  {
+    "id": 20,
+    "performer": "Pharrell Williams",
+    "song": "Happy",
+    "genre": "Pop",
+    "year": 2014
+  },
+  {
+    "id": 21,
+    "performer": "John Legend",
+    "song": "All of Me",
+    "genre": "Pop",
+    "year": 2014
+  },
+  {
+    "id": 22,
+    "performer": "Taylor Swift",
+    "song": "Shake It Off",
+    "genre": "Pop",
+    "year": 2014
+  },
+  {
+    "id": 23,
+    "performer": "Mark Ronson featuring Bruno Mars",
+    "song": "Uptown Funk",
+    "genre": "Funk",
+    "year": 2014
+  },
+  {
+    "id": 24,
+    "performer": "Ed Sheeran",
+    "song": "Thinking Out Loud",
+    "genre": "Pop",
+    "year": 2014
+  },
+  {
+    "id": 25,
+    "performer": "Justin Bieber",
+    "song": "Sorry",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 26,
+    "performer": "Adele",
+    "song": "Hello",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 27,
+    "performer": "The Weeknd",
+    "song": "Can't Feel My Face",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 28,
+    "performer": "Taylor Swift featuring Kendrick Lamar",
+    "song": "Bad Blood",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 29,
+    "performer": "Drake",
+    "song": "One Dance",
+    "genre": "Pop",
+    "year": 2016
+  },
+  {
+    "id": 30,
+    "performer": "Justin Timberlake",
+    "song": "Can't Stop the Feeling!",
+    "genre": "Pop",
+    "year": 2016
+  },
+  {
+    "id": 31,
+    "performer": "The Chainsmokers featuring Halsey",
+    "song": "Closer",
+    "genre": "Pop",
+    "year": 2016
+  },
+  {
+    "id": 32,
+    "performer": "Rae Sremmurd featuring Gucci Mane",
+    "song": "Black Beatles",
+    "genre": "Hip hop",
+    "year": 2013
+  },
+  {
+    "id": 33,
+    "performer": "Ed Sheeran",
+    "song": "Shape of You",
+    "genre": "Pop",
+    "year": 2017
+  },
+  {
+    "id": 34,
+    "performer": "Luis Fonsi featuring Daddy Yankee",
+    "song": "Despacito",
+    "genre": "Reggaeton",
+    "year": 2017
+  },
+  {
+    "id": 35,
+    "performer": "Cardi B",
+    "song": "Bodak Yellow",
+    "genre": "Hip hop",
+    "year": 2017
+  },
+  {
+    "id": 36,
+    "performer": "Post Malone featuring 21 Savage",
+    "song": "Rockstar",
+    "genre": "Hip hop",
+    "year": 2017
+  },
+  {
+    "id": 37,
+    "performer": "Camila Cabello featuring Young Thug",
+    "song": "Havana",
+    "genre": "Pop",
+    "year": 2017
+  },
+  {
+    "id": 38,
+    "performer": "Maroon 5 featuring Cardi B",
+    "song": "Girls Like You",
+    "genre": "Pop",
+    "year": 2018
+  },
+  {
+    "id": 39,
+    "performer": "Drake",
+    "song": "In My Feelings",
+    "genre": "Hip hop",
+    "year": 2018
+  },
+  {
+    "id": 40,
+    "performer": "Ariana Grande",
+    "song": "Thank U, Next",
+    "genre": "Pop",
+    "year": 2018
+  },
+  {
+    "id": 41,
+    "performer": "Lil Nas X featuring Billy Ray Cyrus",
+    "song": "Old Town Road",
+    "genre": "Country rap",
+    "year": 2019
+  },
+  {
+    "id": 42,
+    "performer": "Post Malone",
+    "song": "Circles",
+    "genre": "Pop",
+    "year": 2019
+  },
+  {
+    "id": 43,
+    "performer": "Billie Eilish",
+    "song": "Bad Guy",
+    "genre": "Pop",
+    "year": 2019
+  },
+  {
+    "id": 44,
+    "performer": "Dua Lipa",
+    "song": "Don't Start Now",
+    "genre": "Pop",
+    "year": 2019
+  },
+  {
+    "id": 45,
+    "performer": "The Weeknd",
+    "song": "Blinding Lights",
+    "genre": "Pop",
+    "year": 2020
+  },
+  {
+    "id": 46,
+    "performer": "Roddy Ricch",
+    "song": "The Box",
+    "genre": "Hip hop",
+    "year": 2020
+  },
+  {
+    "id": 47,
+    "performer": "Doja Cat",
+    "song": "Say So",
+    "genre": "Pop",
+    "year": 2020
+  },
+  {
+    "id": 48,
+    "performer": "Harry Styles",
+    "song": "Watermelon Sugar",
+    "genre": "Pop",
+    "year": 2020
+  },
+  {
+    "id": 49,
+    "performer": "Makoto Sinkai",
+    "song": "Suzume no Tojimari",
+    "genre": "Rock",
+    "year": 2020
+  },
+  {
+    "id": 50,
+    "performer": "50 Droplets",
+    "song": "Bruno Mars",
+    "genre": "Pop",
+    "year": 2021
+  },
+  {
+    "id": 51,
+    "performer": "Bruno Mars",
+    "song": "24K Magic",
+    "genre": "Funk",
+    "year": 2016
+  },
+  {
+    "id": 52,
+    "performer": "Bruno Mars",
+    "song": "That's What I Like",
+    "genre": "R&B",
+    "year": 2017
+  },
+  {
+    "id": 53,
+    "performer": "Bruno Mars",
+    "song": "Finesse",
+    "genre": "Funk",
+    "year": 2018
+  },
+  {
+    "id": 54,
+    "performer": "Adele",
+    "song": "Hello",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 55,
+    "performer": "Adele",
+    "song": "When We Were Young",
+    "genre": "Pop",
+    "year": 2016
+  },
+  {
+    "id": 56,
+    "performer": "Adele",
+    "song": "Send My Love (To Your New Lover)",
+    "genre": "Pop",
+    "year": 2016
+  },
+  {
+    "id": 57,
+    "performer": "Justin Bieber",
+    "song": "Sorry",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 58,
+    "performer": "Justin Bieber",
+    "song": "Love Yourself",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 59,
+    "performer": "Justin Bieber",
+    "song": "What Do You Mean?",
+    "genre": "Pop",
+    "year": 2015
+  },
+  {
+    "id": 60,
+    "performer": "Katy Perry",
+    "song": "Roar",
+    "genre": "Pop",
+    "year": 2013
+  }
+]
