@@ -29,9 +29,12 @@ class PlaylistController {
 
   async getFilteredSong(req, res) {
     try {
-      const { query } = req.query;
-      const filteredSong = await playlistService.getFilteredSong(query)
-      res.status(200).json(filteredSong)
+      const { performer, song, genre, year } = req.query;
+      const songObj = {
+        performer, song, genre, year
+      }
+      const filteredSong = await playlistService.getFilteredSong(songObj)
+      res.status(200).json({filteredSong})
     } catch (error) {
       res.status(400)
       console.error(error)

@@ -13,27 +13,23 @@ class PlaylistService {
     return song
   }
 
-  async getFilteredSong(query) {
+  async getFilteredSong(songObj) {
     const song = await Playlist.findAll({
       where: {
         [Op.or]: [
           {
-            performer: { [Op.like]: `%${query}%` }
+            performer: { [Op.like]: `%${songObj.performer}%` }
           },
           {
-            song: { [Op.like]: `%${query}%` }
+            song: { [Op.like]: `%${songObj.song}%` }
           },
           {
-            genre: { [Op.like]: `%${query}%` }
+            genre: { [Op.like]: `%${songObj.genre}%` }
           },
-          {
-            year: { [Op.like]: `%${query}%` }
-          }
-        ]
-      },
-      attributes: {
-        include: [
-          [sequelize.cast(sequelize.col('year'), 'text'), 'yearText']
+          sequelize.where(
+            sequelize.cast(sequelize.col('year'), 'varchar'),
+            { [Op.like]: `%${songObj.year}%` }
+          )
         ]
       }
     })
