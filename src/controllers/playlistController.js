@@ -11,6 +11,29 @@ class PlaylistController {
       const songs = await playlistService.getAllSongs()
       res.status(200).json(songs)
     } catch (error) {
+      res.status(400)
+      console.error(error)
+    }
+  }
+
+  async getOneSong(req, res) {
+    try {
+      const id = req.params.id
+      const song = await playlistService.getOneSong(id)
+      res.status(200).json(song)
+    } catch (error) {
+      res.status(400)
+      console.error(error)
+    }
+  }
+
+  async getFilteredSong(req, res) {
+    try {
+      const { query } = req.query;
+      const filteredSong = await playlistService.getFilteredSong(query)
+      res.status(200).json(filteredSong)
+    } catch (error) {
+      res.status(400)
       console.error(error)
     }
   }
