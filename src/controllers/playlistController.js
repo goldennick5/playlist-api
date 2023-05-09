@@ -1,7 +1,7 @@
 const PlaylistService = require('../services/playlistService')
 const fs = require('fs')
 const path = require('path')
-const uuid = require('uuid') 
+const uuid = require('uuid')
 
 const playlistService = new PlaylistService()
 
@@ -27,9 +27,27 @@ class PlaylistController {
         genre: song.genre,
         year: song.year
       }))
-      if(!songs) throw new Error('songs does not exist')
+      if (!songs) throw new Error('songs does not exist')
       await playlistService.createSongs(songs)
       res.status(201).json({ message: 'all songs was created' })
+    } catch (error) {
+      res.status(400)
+      console.error(error)
+    }
+  }
+
+  async createOneSong(req, res) {
+    try {
+      const { performer, song, genre, year } = req.body
+      const songObj = {
+        performer,
+        song,
+        genre,
+        year
+      }
+      if (!performer || !song || !genre || !year) res.send('song does not exist')
+      await playlistService.createOneSong(songObj)
+      res.status(201).json({ message: 'song was created' })
     } catch (error) {
       res.status(400)
       console.error(error)

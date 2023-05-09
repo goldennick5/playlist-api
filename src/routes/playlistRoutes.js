@@ -6,5 +6,6 @@ const playlistController = new PlaylistController()
 
 playlistRouter.get('/getAllSongs', playlistController.getAllSongs)
 playlistRouter.post('/createSongs', playlistController.createSongs)
+playlistRouter.post('/createOneSong', playlistController.createOneSong)
 
 module.exports = playlistRouter;

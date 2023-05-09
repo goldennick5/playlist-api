@@ -16,7 +16,7 @@ app.use('/', routes)
 const start = async () => {
   try {
     await sequelize.authenticate()
-    await sequelize.sync({ force: true })
+    await sequelize.sync({ force: false })
     app.listen(port, () => {
       console.log(`server started on port http:localhost:${port}`)
     })

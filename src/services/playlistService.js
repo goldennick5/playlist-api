@@ -10,6 +10,11 @@ class PlaylistService {
     const songs = await Playlist.bulkCreate(items)
     return songs
   }
+
+  async createOneSong(item) {
+    const song = await Playlist.create(item)
+    return song
+  }
 }
 
 module.exports = PlaylistService
